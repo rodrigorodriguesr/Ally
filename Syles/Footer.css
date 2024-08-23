@@ -1,0 +1,14 @@
+.footer{
+    background-color: #203341;
+}
+.title-footer{
+    color: white;
+}
+.copy{
+    color: white;
+}
+.icon{
+    color: white;
+    transition: color 0.3s ease;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,73 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Estilo dos títulos */
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Seção de Como Funciona */
+.container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-fluid {
+    max-width: 80px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilo dos testemunhos */
+.testimonial {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Estilo do FAQ */
+.accordion-button {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #007bff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+.accordion-item {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}

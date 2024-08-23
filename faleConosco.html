@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Syles/card.css">
+    <link rel="stylesheet" href="/Syles/Button.css">
+    <link rel="stylesheet" href="/Syles/Footer.css">
+    <link rel="stylesheet" href="/Syles/Section.css">
+    <link rel="shortcut icon" href="/ico/favicon_io (1)/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a href="/app.html">
+      <img src="img/ALLY/LOGO ALLY - PRETO.svg" class="img" alt="Logo Ally">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/app.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/Solucoes.html">Sobre Nós</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faleConosco.html">Fale conosco</a>
+        </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/serviços.html">Serviços</a>
+      </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- End Navbar -->
+
+
+<div class="container mb-2 mt-3 p-4 border rounded shadow">
+    <div class="formulario">
+      <h1 class="ps-2 mb-4 title__home">Fale Conosco</h1>
+      <div class="row">
+        <div class="mb-3 col-md-6">
+          <label for="inputNome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="inputNome" placeholder="Digite o nome">
+        </div>
+        <div class=" mb-3 col-md-6">
+          <label for="inputNumero" class="form-label">Número</label>
+          <input type="tel" class="form-control" id="inputNumero" placeholder="Digite o número">
+        </div>
+        <div class="mb-3 col-md-6">
+          <label for="inputEmail" class="form-label">Endereço de Email</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="nome@example.com">
+        </div>
+        <div class="mb-3 col-md-12">
+          <label for="inputTextarea" class="form-label">Texto</label>
+          <textarea class="form-control" id="inputTextarea" rows="3" placeholder="Escreva sua mensagem aqui"></textarea>
+        </div>
+        <div class="mb-3 col-md-12 text-end">
+          <button type="submit" class="btn btn-outline-success">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section -->
+  <section id="fale-conosco">
+   
+  </section>
+
+  <!-- End Section -->
+  
+
+  <div id="footer-placeholder"></div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-placeholder').innerHTML = data;
+    });
+</script>
+</body>
+</html>

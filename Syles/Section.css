@@ -1,0 +1,29 @@
+.title__home {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+.text-muted {
+    font-size: 1.25rem;
+    color: #6c757d !important;
+}
+.button .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.home__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+}
+@media (max-width: 768px) {
+    .home {
+        text-align: center;
+    }
+    .home__image {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
